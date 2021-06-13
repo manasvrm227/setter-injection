@@ -8,13 +8,13 @@
                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
 
 <bean id="address" class="com.shrinkme.bean.AddressBean">
-<property name="city"><value>SAS Nagar</value></property>
-<property name="state"><value>Punjab</value></property>
+<property name="city" value="SAS Nagar"></property>
+<property name="state" value="Punjab"></property>
 </bean>      
 
 <bean id="employee" class="com.shrinkme.bean.EmployeeBean">
-<property name="id"><value>1</value></property>
-<property name="name"><value>Mann</value> </property>
+<property name="id" value = "1"> </property>
+<property name="name" value="Mann"> </property>
 <property name = "addressBean" ref="address"/>
 </bean>       
                
